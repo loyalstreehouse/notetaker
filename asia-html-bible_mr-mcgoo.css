@@ -1,0 +1,1193 @@
+/* treehouse css menu */
+.treehouse ul
+{	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	list-style: none;}
+.treehouse li
+{	padding: 0px;
+	margin: 4px 0px 0px 0px;
+	list-style: none;
+	font-family: arial, NotoSans, Sans-serif;
+	font-size: 18pt;}
+.treehouse li label
+{	padding: 12px;
+	margin: 6px 0px 0px 0px;
+	list-style: none;
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	color: black;
+	font-family: arial, NotoSans, Sans-serif;
+	font-size: 18pt;}
+.treehouse a:hover
+{	text-decoration: underline;}
+.treehouse input
+{	position: absolute;
+	opacity: 0;}
+.treehouse input + label + ul
+{	margin: 0px 0px 0px 0px;
+	display: none;}
+.treehouse input:checked:not(:disabled) + label + ul
+{	display: block;}
+.treehouse label::before
+{	cursor: pointer;
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;,
+	vertical-align: middle;
+	width: 5px;
+	margin: 0px 0px 0px 0px;
+	background-position: 0 -32px;}
+.treehouse input:checked + label::before
+{	background-position: 0 -16px;}
+
+
+
+/* eng labels */
+label.blue1 
+{background: #0088FF !important;
+  background-position: 16px 0;
+  padding: 6px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 0px;
+  width: 110px;
+  font-family: arial, NotoSans, Sans-serif;
+  font-size: 18pt;
+  cursor: pointer;}
+a.blue2
+{background: #0088FF;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 90px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, NotoSans, Sans-serif;
+  font-size: 18pt;  }
+a.blue3
+{background: #AACCFF;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 90px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, NotoSans, Sans-serif;
+  font-size: 18pt;  }
+ a.blue4
+{background: #AACCFF;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 50px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, NotoSans, Sans-serif;
+  font-size: 18pt;  }
+
+/* bible labels */
+label.gray1
+{background: #666666 !important;
+background-position: 16px 0;
+padding: 6px;
+border-radius: 3px;
+margin: 0px 0px 0px 0px;
+width: 110px;
+font-family: Arial, NotoSerif, Sans-serif;
+font-size: 18pt;
+cursor: pointer;}
+a.gray2
+{background: #666666;
+padding: 14px;
+border-radius: 3px;
+margin: 0px 0px 0px 4px;
+width: 90px;
+display: inline-block;
+height: 14px;
+line-height: 14px;
+vertical-align: middle;
+text-decoration: none;
+color: black;
+font-family: Arial, NotoSerif, Sans-serif;
+font-size: 20pt;  }
+a.gray3
+{background: #cccccc;
+padding: 14px;
+border-radius: 3px;
+margin: 0px 0px 0px 4px;
+width: 90px;
+display: inline-block;
+height: 14px;
+line-height: 14px;
+vertical-align: middle;
+text-decoration: none;
+color: black;
+font-family: Arial, NotoSerif, Sans-serif;
+font-size: 20pt;  }
+a.gray4
+{background: #cccccc;
+padding: 14px;
+border-radius: 3px;
+margin: 0px 0px 0px 4px;
+width: 50px;
+display: inline-block;
+height: 14px;
+line-height: 14px;
+vertical-align: middle;
+text-decoration: none;
+color: black;
+font-family: Arial, NotoSerif, Sans-serif;
+font-size: 20pt;  }
+
+
+/* nea labels */
+label.red1
+{background: red !important;
+background-position: 16px 0;
+padding: 6px;
+border-radius: 3px;
+margin: 0px 0px 0px 0px;
+width: 110px;
+font-family: Arial, NotoSansCJK, Sans-serif;
+font-size: 36pt;
+cursor: pointer;}
+a.red2
+{background: red;
+padding: 14px;
+border-radius: 3px;
+margin: 0px 0px 0px 4px;
+width: 90px;
+display: inline-block;
+height: 14px;
+line-height: 14px;
+vertical-align: middle;
+text-decoration: none;
+color: black;
+font-family: Arial, NotoSansCJK,  Sans-serif;
+font-size: 20pt;  }
+a.red3
+{background: #ff9999;
+padding: 14px;
+border-radius: 3px;
+margin: 0px 0px 0px 4px;
+width: 90px;
+display: inline-block;
+height: 14px;
+line-height: 14px;
+vertical-align: middle;
+text-decoration: none;
+color: black;
+font-family: Arial, NotoSansCJK,  Sans-serif;
+font-size: 20pt;  }
+a.red4
+{background: #ff9999;
+padding: 14px;
+border-radius: 3px;
+margin: 0px 0px 0px 4px;
+width: 50px;
+display: inline-block;
+height: 14px;
+line-height: 14px;
+vertical-align: middle;
+text-decoration: none;
+color: black;
+font-family: Arial, NotoSansCJK,  Sans-serif;
+font-size: 20pt;  }
+
+/* oea labels */
+label.green1 
+{background: #009900 !important;
+  background-position: 16px 0;
+  padding: 6px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 0px;
+  width: 110px;
+  font-family: Arial, NotoSans, Sans-serif;
+  font-size: 18pt;
+  cursor: pointer;}  
+a.green2
+{background: #009900;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 90px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, NotoSans, Sans-serif;
+  font-size: 18pt;  }
+a.green3
+{background: #33FF33;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 90px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, NotoSans, Sans-serif;
+  font-size: 18pt;  }
+a.green4
+{background: #33FF33;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 50px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, NotoSans, Sans-serif;
+  font-size: 18pt;  }
+
+/* sea labels */
+label.purple1 
+{background: #660099 !important;
+background-position: 16px 0;
+padding: 6px;
+border-radius: 3px;
+margin: 0px 0px 0px 0px;
+width: 110px;
+font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+font-size: 36pt;
+cursor: pointer;}
+a.purple2
+{background: #660099;
+padding: 14px;
+border-radius: 3px;
+margin: 0px 0px 0px 4px; 
+width: 90px;
+display: inline-block;
+height: 14px;
+line-height: 14px;
+vertical-align: middle;
+text-decoration: none;
+color: black;
+font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+font-size: 20pt;  }
+a.purple3
+{background: #cc99ff;
+padding: 14px;
+border-radius: 3px;
+margin: 0px 0px 0px 4px; 
+width: 90px;
+display: inline-block;
+height: 14px;
+line-height: 14px;
+vertical-align: middle;
+text-decoration: none;
+color: black;
+font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+font-size: 20pt;  }
+a.purple4
+{background: #cc99ff;
+padding: 14px;
+border-radius: 3px;
+margin: 0px 0px 0px 4px; 
+width: 50px;
+display: inline-block;
+height: 14px;
+line-height: 14px;
+vertical-align: middle;
+text-decoration: none;
+color: black;
+font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+font-size: 20pt;  }
+
+
+/* swa labels */
+label.brown1
+{background: #663300 !important;
+background-position: 16px 0;
+padding: 6px;
+border-radius: 3px;
+margin: 0px 0px 0px 0px;
+width: 110px;
+font-family: NotoSans, @font@ Sans-serif;
+font-size: 18pt;
+cursor: pointer;}
+a.brown2
+{background: #663300;
+padding: 14px;
+border-radius: 3px;
+margin: 0px 0px 0px 4px; 
+width: 90px;
+display: inline-block;
+height: 14px;
+line-height: 14px;
+vertical-align: middle;
+text-decoration: none;
+color: black;
+font-family: NotoSans, @font@ Sans-serif;
+font-size: 18pt;  }
+a.brown3
+{background: #996633;
+padding: 14px;
+border-radius: 3px;
+margin: 0px 0px 0px 4px; 
+width: 90px;
+display: inline-block;
+height: 14px;
+line-height: 14px;
+vertical-align: middle;
+text-decoration: none;
+color: black;
+font-family: NotoSans, @font@ Sans-serif;
+font-size: 18pt;  }
+a.brown4
+{background: #996633;
+padding: 14px;
+border-radius: 3px;
+margin: 0px 0px 0px 4px; 
+width: 50px;
+display: inline-block;
+height: 14px;
+line-height: 14px;
+vertical-align: middle;
+text-decoration: none;
+color: black;
+font-family: NotoSans, @font@ Sans-serif;
+font-size: 18pt;  }
+
+label.yellow1 
+{background: #FFFF00 !important;
+  background-position: 16px 0;
+  padding: 6px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 0px;
+  width: 120px;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;
+  cursor: pointer;}
+a.yellow1
+{background: #FFFF00;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 120px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }
+a.yellow2
+{background: #FFFF00;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 90px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }
+a.yellow3
+{background: #FFEE55;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 90px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }
+ a.yellow4
+{background: #FFEE55;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 50px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }
+  
+  
+label.aqua1 
+{background: #339999 !important;
+  background-position: 16px 0;
+  padding: 6px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 0px;
+  width: 110px;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;
+  cursor: pointer;}
+a.aqua2
+{background: #339999;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 90px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }
+ a.aqua3
+{background: #339999;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 50px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }
+ 
+label.black1 
+{background: #000000 !important;
+  background-position: 16px 0;
+  padding: 6px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 0px;
+  width: 110px;
+  color: white;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;
+  cursor: pointer;}
+a.black2
+{background: #000000;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 90px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }
+a.black3
+{background: #000000;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 50px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }
+  
+  
+label.cyan1 
+{background: #20B2AA !important;
+  background-position: 16px 0;
+  padding: 6px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 0px;
+  width: 110px;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;
+  cursor: pointer;}
+a.cyan2
+{background: #20B2AA;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 90px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }
+a.cyan3
+{background: #20B2AA;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 50px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }
+
+
+label.gold1 
+{background: #BBAA00 !important;
+  background-position: 16px 0;
+  padding: 6px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 0px;
+  width: 110px;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;
+  cursor: pointer;}
+a.gold2
+{background: #BBAA00;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 90px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }
+a.gold3
+{background: #BBAA00;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 50px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }
+  
+label.hotpink1 
+{background: #FF0066 !important;
+  background-position: 16px 0;
+  padding: 6px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 0px;
+  width: 120px;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;
+  cursor: pointer;}
+a.hotpink1 
+{background: #FF0066;
+  padding: 14px;
+  border-radius: 4px;
+  margin: 0px 0px 0px 4px;
+  width: 120px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;}
+a.hotpink2
+{background: #FF0066;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 100px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }
+a.hotpink3
+{background: #FF99cc;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 100px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }  
+a.hotpink4
+{background: #FF99cc;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 30px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Browallia, NotoSansThai, Loma, Sans-serif;
+  font-size: 18pt;  }  
+  
+  
+label.orange1 
+{background: #FF3300 !important;
+  background-position: 16px 0;
+  padding: 6px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 0px;
+  width: 120px;
+  font-family: Arial, NotoSans, Sans-serif;
+  font-size: 18pt;
+  cursor: pointer;}
+a.orange1
+{background: #FF3300;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 120px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, NotoSans, Sans-serif;
+  font-size: 18pt;  }
+a.orange2
+{background: #FF3300;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 100px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, NotoSans, Sans-serif;
+  font-size: 18pt;  }
+a.orange3
+{background: #FF9900;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 100px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial,  NotoSans, Sans-serif;
+  font-size: 18pt;  }
+a.orange4
+{background: #FF9900;
+  padding: 14px;
+  border-radius: 3px;
+  margin: 0px 0px 0px 4px;  	
+  width: 30px;
+  display: inline-block;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: black;
+  font-family: Arial,  NotoSans, Sans-serif;
+  font-size: 18pt;  }
+
+
+
+/* Style for bible text */
+.coment
+ 	{font-family : Tahoma, "Liberation Sans";
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 170%;
+	text-align : left;
+	text-indent : 0pt;
+	background-color: #FFFF00;
+	margin-top:0.0pt; 	
+	margin-right:0cm; 	
+	margin-bottom:0.0pt; 	
+	margin-left:0cm;}
+	
+/* ========================== highlighter  ========================= */
+
+.bg_dblack
+	{background-color : black;
+	color : white;}
+.bg_black
+	{background-color : #333333;
+	color : white;}	
+.bg_lblack
+	{background-color : #999999;}	
+.bg_dblue
+	{background-color : #000033;
+	color : white;}
+.bg_blue 
+	{background-color : #0000cc;}
+.bg_lblue 
+	{background-color : #99ffcc;}	
+.bg_dbrown
+	{background-color : #330000;
+	color : white;}
+.bg_brown
+	{background-color : #663300;}
+.bg_lbrown
+	{background-color : #996633;}	
+.bg_dgreen 
+	{background-color : #003300;}
+.bg_green 
+	{background-color : #006600;}
+.bg_lgreen
+	{background-color : #33cc33;}
+.bg_dorange
+	{background-color : #ff3300;}
+.bg_orange
+	{background-color : orange;}		
+.bg_dpink
+	{background-color : #cc0099;}
+.bg_pink
+	{background-color : #ff9999;}	
+.bg_dpurple 
+	{background-color : #330033;}
+.bg_purple 
+	{background-color : #660066;}
+.bg_lpurple 
+	{background-color : #996699;}
+.bg_dred 
+	{background-color : #660000;}
+.bg_red 
+	{background-color : #FF0000;}
+.bg_torquoise
+	{background-color : #0066cc;}	
+.bg_yellow
+	{background-color : yellow;}
+
+	
+	
+	
+/* ========================== outline ----- ========================= */
+OL
+	{font-family : Tahoma, "Liberation Sans";
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 140%;
+	text-align : left;
+	text-indent : 0pt;
+	list-style-type : none;}
+OL.ualpha
+	{font-family : Tahoma, "Liberation Sans";
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 140%;
+	text-align : left;
+	text-indent : 0pt;
+	list-style-type :upper alpha;}
+OL.lalpha
+	{font-family : Tahoma, "Liberation Sans";
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 140%;
+	text-align : left;
+	text-indent : 0pt;
+	list-style-type :lower alpha;}
+OL.number
+	{font-family : Tahoma, "Liberation Sans";
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 140%;
+	text-align : left;
+	text-indent : 0pt;
+	list-style-type : decimal;}
+
+	
+
+
+/* ========================== eng defaults ---------------------------------
+----------------------------------------------------------------*/
+.eng16-N
+	{font-family : Tahoma, "Liberation Sans", NotoSans;
+	font-size : 16pt;
+	font-weight : normal;
+	color : black;
+	line-height : 120%;
+	text-align : left;
+	text-indent : 0pt;}
+/* ========================== en16 -------- ========================= */
+.eng24-B
+	{font-family : Tahoma, "Liberation Sans", NotoSans;
+	font-size : 24pt;
+	font-weight : bold;
+	color : black;
+	line-height : 120%;
+	text-align : left;
+	text-indent : 0pt;}
+.eng24-Ia
+	{font-family : Tahoma, "Liberation Sans", NotoSans;
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 130%;
+	text-align : left;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 1em;
+	margin-left: 2em;}
+.eng24-Ib
+	{font-family :Tahoma, "Liberation Sans", NotoSans, @font@;
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 130%;
+	text-align : left;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 1em;
+	margin-left: 4em;}
+.eng24-Ic
+	{font-family : Tahoma, "Liberation Sans", NotoSans;
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 130%;
+	text-align : left;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 1em;
+	margin-left: 6em;}
+.eng24-Id
+	{font-family : Tahoma, "Liberation Sans", NotoSans;
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 130%;
+	text-align : left;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 1em;
+	margin-left: 8em;}
+.eng36-N
+	{font-family : Tahoma, "Liberation Sans", NotoSans;
+	font-size : 36pt;
+	font-weight : normal;
+	color : black;
+	line-height : 120%;
+	text-align : left;
+	text-indent : 0pt;}
+.eng24-P
+	{font-family : Tahoma, "Liberation Sans", NotoSans;
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 120%;
+	text-align : left;
+	text-indent : 20pt;}
+.eng12-V
+	{font-family : Tahoma, "Liberation Sans", NotoSans;
+	font-size : 14pt;
+	font-weight : normal;
+	color : red;
+	line-height : 120%;
+	text-align : left;
+	text-indent : 0pt;}
+.eng24-W
+	{font-family : Tahoma, "Liberation Sans", NotoSans;
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 170%;
+	text-align : left;
+	text-indent : 0pt;}
+.eng24-WIa
+	{font-family : Tahoma, "Liberation Sans", NotoSans;
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 150%;
+	text-align : left;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 1em;
+	margin-left: 2em;}
+.eng24-WIb
+	{font-family : Tahoma, "Liberation Sans", NotoSans;
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 150%;
+	text-align : left;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 1em;
+	margin-left: 4em;}
+	
+/* ========================== en24 -------- ========================= */
+.eng36-B
+	{font-family : Tahoma, "Liberation Sans", NotoSans;
+	font-size : 36pt;
+	font-weight : bold;
+	color : black;
+	line-height : 120%;
+	text-align : left;
+	text-indent : 0pt;}
+.eng36-C
+	{font-family : Tahoma, "Liberation Sans", NotoSans;
+	font-size : 36pt;
+	font-weight : normal;
+	color : black;
+	line-height : 120%;
+	text-align : center;
+	text-indent : 0pt;}
+.eng36-N
+	{font-family : Tahoma, "Liberation Sans", NotoSans;
+	font-size : 36pt;
+	font-weight : normal;
+	color : black;
+	line-height : 120%;
+	text-align : left;
+	text-indent : 0pt;}
+
+
+/* ========================== greek ------- ========================= */
+
+
+/* ========================== gr16 -------- ========================= */
+.grc36-N
+	{font-family : NotoSerif-Regular;
+	font-size : 36pt;
+	font-weight : normal;
+	color : black;
+	line-height : 120%;
+	text-align : left;
+	text-indent : 0pt;}
+.grc36-B
+	{font-family : NotoSerif-Regular;
+	font-size : 36pt;
+	font-weight : bold;
+	color : black;
+	line-height : 120%;
+	text-align : left;
+	text-indent : 0pt;}
+.grc36-C
+	{font-family : NotoSerif-Regular;
+	font-size : 36pt;
+	font-weight : normal;
+	color : black;
+	line-height : 120%;
+	text-align : center;
+	text-indent : 0pt;}
+.grc36-W
+	{font-family : NotoSerif-Regular;
+	font-size : 36pt;
+	font-weight : normal;
+	color : black;
+	line-height : 170%;
+	text-align : center;
+	text-indent : 0pt;}
+.grc36-WP
+	{font-family : NotoSerif-Regular;
+	font-size : 36pt;
+	font-weight : normal;
+	color : black;
+	line-height : 170%;
+	text-align : center;
+	text-indent : 30pt;}
+/* ========================== gr24 -------- ========================= */
+.grc36-N
+	{font-family : NotoSerif-Regular;
+	font-size : 36pt;
+	font-weight : normal;
+	color : black;
+	line-height : 120%;
+	text-align : left;
+	text-indent : 0pt;}	
+.grc36-B
+	{font-family : NotoSerif-Regular;
+	font-size : 36pt;
+	font-weight : bold;
+	color : black;
+	line-height : 120%;
+	text-align : center;
+	text-indent : 0pt;}
+.grc36-C
+	{font-family : NotoSerif-Regular;
+	font-size : 36pt;
+	font-weight : normal;
+	color : black;
+	line-height : 120%;
+	text-align : center;
+	text-indent : 0pt;}
+	
+	
+	
+	
+	
+
+/* ========================== he16 -------- ========================= */
+.heb24-N
+	{font-family : NotoSansHebrew-Regular;
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 120%;
+	text-align : left;
+	text-indent : 0pt;}
+.heb24-B
+	{font-family : NotoSansHebrew-Regular;
+	font-size : 24pt;
+	font-weight : bold;
+	color : black;
+	line-height : 120%;
+	text-align : left;
+	text-indent : 0pt;}
+.heb36-N
+	{font-family : NotoSansHebrew-Regular;
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 120%;
+	text-align : center;
+	text-indent : 0pt;}
+.heb24-W
+	{font-family : NotoSansHebrew-Regular;
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 170%;
+	text-align : center;
+	text-indent : 0pt;}
+	
+/* ========================== he24 -------- ========================= */
+.heb36-N
+	{font-family : NotoSansHebrew-Regular;
+	font-size : 36pt;
+	font-weight : normal;
+	color : black;
+	line-height : 120%;
+	text-align : left;
+	text-indent : 0pt;}	
+.heb36-B
+	{font-family : NotoSansHebrew-Regular;
+	font-size : 36pt;
+	font-weight : bold;
+	color : black;
+	line-height : 120%;
+	text-align : center;
+	text-indent : 0pt;}
+.heb36-C
+	{font-family : NotoSansHebrew-Regular;
+	font-size : 36pt;
+	font-weight : normal;
+	color : black;
+	line-height : 120%;
+	text-align : center;
+	text-indent : 0pt;}
+	
+	
+	
+	
+	
+	
+
+.jpn24-W
+	{font-family: Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, Kiloji, "arial Unicode MS";
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 170%;
+	text-align : left;
+	text-indent : 0pt;}
+.kor24-W
+	{font-family : "Lucida Sans Unicode", Gulim, NotoSansCJK-kr-Regular;
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 170%;
+	text-align : left;
+	text-indent : 0pt;}
+.kor24-WP
+	{font-family : "Lucida Sans Unicode", Gulim, NotoSansCJK-kr-Regular;
+	font-size : 24pt;
+	font-weight : normal;
+	color : black;
+	line-height : 170%;
+	text-align : left;
+	text-indent : 30pt;}
+.kor36-W
+	{font-family : "Lucida Sans Unicode", Gulim, NotoSansCJK-kr-Regular;
+	font-size : 36pt;
+	font-weight : normal;
+	color : black;
+	line-height : 170%;
+	text-align : left;
+	text-indent : 0pt;}
+	
+
+.tha24-W
+	{font-family : BrowalliaUPC, Loma, NotoSansThai;
+	font-size : 32pt;
+	font-weight : normal;
+	color : black;
+	line-height : 150%;
+	text-align : left;
+	text-indent : 0pt;}
+.tha24-WP
+	{font-family : BrowalliaUPC, Loma, NotoSansThai;
+	font-size : 32pt;
+	font-weight : normal;
+	color : black;
+	line-height : 150%;
+	text-align : left;
+	text-indent : 30pt;}
+.tha36-W
+	{font-family : BrowalliaUPC, Loma, NotoSansThai;
+	font-size : 42pt;
+	font-weight : normal;
+	color : black;
+	line-height : 150%;
+	text-align : left;
+	text-indent : 0pt;}
+	
+	
